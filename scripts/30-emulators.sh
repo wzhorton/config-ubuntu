@@ -12,7 +12,7 @@ cp -r ~/$HOSTNAME/config-assets/ps2_bios/* ~/.config/PCSX2/bios
 sudo snap install retroarch
 
 # Steam
-sudo apt install steam
+sudo apt install steam -y
 
 # Citra
 sudo snap install citra-emu
