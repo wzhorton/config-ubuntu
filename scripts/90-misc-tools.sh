@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# PS4 Controller Driver when used as USB
+# Run "sudo ds4drv --hidraw" to activate
+. ~/.profile
+pip install ds4drv
+
+# Joplin Notes
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
+
+# Misc Packages
+sudo apt install gimp -y
+sudo snap install discord
+
+# Misc Settings
+gsettings set org.gnome.desktop.interface clock-format '12h'
+git clone https://github.com/adaxi/audio-output-switcher.git ~/.local/share/gnome-shell/extensions/audio-output-switcher@anduchs
+gnome-extensions enable audio-output-switcher@anduchs
+gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
