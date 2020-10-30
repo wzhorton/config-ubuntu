@@ -17,7 +17,8 @@ sudo apt install steam -y
 # Citra
 sudo snap install citra-emu
 
-# Minecraft wget https://launcher.mojang.com/download/Minecraft.deb
+# Minecraft 
+wget https://launcher.mojang.com/download/Minecraft.deb
 sudo gdebi Minecraft.deb -n
 rm Minecraft.deb
 
