@@ -17,6 +17,7 @@ gsettings set org.gnome.desktop.interface clock-format '12h'
 git clone https://github.com/adaxi/audio-output-switcher.git ~/.local/share/gnome-shell/extensions/audio-output-switcher@anduchs
 gnome-extensions enable audio-output-switcher@anduchs
 gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
+sudo apt install gnome-shell-extensions
 
 # Zoom
 wget https://zoom.us/client/latest/zoom_amd64.deb
