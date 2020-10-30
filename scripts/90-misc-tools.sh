@@ -17,3 +17,17 @@ gsettings set org.gnome.desktop.interface clock-format '12h'
 git clone https://github.com/adaxi/audio-output-switcher.git ~/.local/share/gnome-shell/extensions/audio-output-switcher@anduchs
 gnome-extensions enable audio-output-switcher@anduchs
 gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
+
+# Zoom
+wget https://zoom.us/client/latest/zoom_amd64.deb
+sudo gdebi zoom_amd64.deb -n
+rm zoom_amd64.deb
+
+# Zerotier
+curl -s https://install.zerotier.com | sudo bash
+
+# Benchmarking tools
+sudo apt install stress
+wget phoronix-test-suite.com/releases/repo/pts.debian/files/phoronix-test-suite_10.0.1_all.deb
+sudo gdebi -n phoron*
+rm phoron*
