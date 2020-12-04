@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Link monitor config to gdm3 login manager
-sudo ln ~/.config/monitors.xml /var/lib/gdm3/.config/
+# sudo ln ~/.config/monitors.xml /var/lib/gdm3/.config/
 
 # Update NVidia drivers
 sudo add-apt-repository ppa:graphics-drivers -y
